@@ -34,12 +34,11 @@ If you don't have Claude Desktop yet, download it from [claude.ai/download](http
 
 1. Inside your new project, click **Set up project** (or the gear icon)
 2. Under **Project knowledge**, click **Add content** then **Add text content**
-3. Open this link in your browser: [SKILL-claude-desktop.md on GitHub](https://github.com/redbricksoftware/resume-builder/blob/main/SKILL-claude-desktop.md)
-4. Click the **Raw** button near the top-right of the file content — this shows the plain text
-5. Select all the text on the page (Ctrl+A on Windows, Cmd+A on Mac), then copy it (Ctrl+C / Cmd+C)
-6. Go back to Claude Desktop and paste it into the text content area (Ctrl+V / Cmd+V)
-7. Give it a title like "Resume Builder Instructions"
-8. Click **Save**
+3. Open this link in your browser: [SKILL-claude-desktop.md on GitHub](https://raw.githubusercontent.com/redbricksoftware/resume-builder/refs/heads/main/SKILL-claude-desktop.md)
+4. Select all the text on the page (Ctrl+A on Windows, Cmd+A on Mac), then copy it (Ctrl+C / Cmd+C)
+5. Go back to Claude Desktop and paste it into the text content area (Ctrl+V / Cmd+V)
+6. Give it a title like "Resume Builder Instructions"
+7. Click **Save**
 
 #### Step 4: Add your resume
 

@@ -1,0 +1,10 @@
+{
+  "name": "resume-builder",
+  "description": "ATS-optimized resume builder: analyzes job descriptions, matches against your master resume, and generates tailored 2-page Word documents with optional automated application",
+  "version": "1.0.0",
+  "author": {
+    "name": "RedBrick Software, Inc."
+  },
+  "homepage": "https://github.com/redbricksoftware/resume-builder",
+  "license": "MIT"
+}

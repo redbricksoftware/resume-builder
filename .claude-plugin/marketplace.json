@@ -1,0 +1,23 @@
+{
+  "name": "redbrick-tools",
+  "owner": {
+    "name": "RedBrick Software, Inc."
+  },
+  "metadata": {
+    "description": "Claude Code plugins by RedBrick Software, Inc."
+  },
+  "plugins": [
+    {
+      "name": "resume-builder",
+      "source": "./resume-builder-plugin",
+      "description": "ATS-optimized resume builder: analyzes job descriptions, matches against your master resume, and generates tailored 2-page Word documents with optional automated application",
+      "version": "1.0.0",
+      "author": {
+        "name": "RedBrick Software, Inc."
+      },
+      "license": "MIT",
+      "keywords": ["resume", "ats", "job-search", "career"],
+      "category": "productivity"
+    }
+  ]
+}

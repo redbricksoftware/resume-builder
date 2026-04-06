@@ -1,0 +1,19 @@
+# Personal resume data
+resume.md
+resume_template.docx
+
+# Generated resumes
+resume_*.docx
+
+# Temp files
+/tmp/
+/tmp/*.json
+
+# Python
+__pycache__/
+*.pyc
+
+# Claude Code
+/.claude/
+docs/superpowers/plans/2026-04-06-resume-builder-svc.md
+docs/superpowers/specs/2026-04-06-resume-builder-svc-design.md

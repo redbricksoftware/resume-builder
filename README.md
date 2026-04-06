@@ -16,8 +16,11 @@ A Claude Code skill that tailors your resume for specific job postings and gener
 
 ### As a Claude Code Plugin (recommended)
 
-```bash
-claude plugin add redbricksoftware/resume-builder
+From inside Claude Code, run these slash commands:
+
+```
+/plugin marketplace add redbricksoftware/resume-builder
+/plugin install resume-builder@redbrick-tools
 ```
 
 Then install the Python dependencies:

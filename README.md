@@ -5,10 +5,10 @@ An AI-powered resume builder that tailors your resume for specific job postings.
 ## What It Does
 
 1. You provide a job posting URL
-2. Claude analyzes the job description against your master resume
+2. Claude analyzes the job description against your base resume
 3. Identifies your top 3-5 most relevant experiences
 4. Asks targeted questions to fill gaps and strengthen bullets
-5. Updates your master resume with new info (so it grows over time)
+5. Updates your base resume with new info (so it grows over time)
 6. Generates a tailored, ATS-optimized 2-page Word document
 7. (Optional) Opens Chrome to help you apply directly
 
@@ -64,7 +64,7 @@ If you don't have Claude Desktop yet, download it from [claude.ai/download](http
 
 #### Tips for Claude Desktop users
 
-- **Save your updated master resume.** After each session, Claude will give you an updated version of your resume with new details added. Copy this and upload it to your project knowledge (replacing the old one) so future applications are faster.
+- **Save your updated base resume.** After each session, Claude will give you an updated version of your resume with new details added. Copy this and upload it to your project knowledge (replacing the old one) so future applications are faster.
 - **Review before submitting.** Always copy the output into a Word document or Google Doc, make manual edits, save as PDF, and submit yourself.
 - **Cross-check with another AI.** After generating your resume, paste it along with the job description into a different AI tool (like Google's Gemini) and ask it to score how well your resume matches. Great sanity check.
 
@@ -113,7 +113,7 @@ cp resume_example.md resume.md
 Edit `resume.md` with all of your experience, achievements, and skills.
 
 **Tips for `resume.md`:**
-- This is your **master resume** — include everything
+- This is your **base resume** — include everything
 - Quantify achievements whenever possible ($X revenue, Y% growth, Z team members)
 - Include all roles going back 10-15 years
 - List all technical skills, tools, and certifications
@@ -138,7 +138,7 @@ The `/build-resume` skill triggers automatically and walks you through:
 
 | File | Purpose |
 |------|---------|
-| `resume.md` | Your master resume (you create this, gitignored) |
+| `resume.md` | Your base resume (you create this, gitignored) |
 | `resume_example.md` | Template to get started |
 
 ## ATS Optimization
@@ -152,6 +152,6 @@ The generated resumes are designed to pass Applicant Tracking Systems:
 - Keywords mirrored from the job description
 - Contact info in the document body (not headers/footers)
 
-## How the Master Resume Grows
+## How the Base Resume Grows
 
-Each time you use the skill, Claude asks about experience not yet in `resume.md`. When you share new details, they're permanently added. Over time, your master resume becomes a comprehensive record of everything you've done — making future applications faster and more complete.
+Each time you use the skill, Claude asks about experience not yet in `resume.md`. When you share new details, they're permanently added. Over time, your base resume becomes a comprehensive record of everything you've done — making future applications faster and more complete.

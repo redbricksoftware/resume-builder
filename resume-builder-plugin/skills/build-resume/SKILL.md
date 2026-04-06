@@ -5,11 +5,11 @@ description: Use when the user provides a job posting URL or description and wan
 
 # Build Resume
 
-Interactive workflow: analyze a job description against the user's master resume (`resume.md`), identify strongest matches, fill gaps through conversation, and generate an ATS-optimized 2-page Word document.
+Interactive workflow: analyze a job description against the user's base resume (`resume.md`), identify strongest matches, fill gaps through conversation, and generate an ATS-optimized 2-page Word document.
 
 ## Prerequisites
 
-- `resume.md` in working directory (master resume — additive, never remove content)
+- `resume.md` in working directory (base resume — additive, never remove content)
 - `python-docx` installed (`pip3 install python-docx`)
 - For PDF import: `pdfplumber` installed (`pip3 install pdfplumber`)
 - For Step 8 (Apply): `playwright` installed (`pip3 install playwright`), Google Chrome installed
@@ -121,7 +121,7 @@ Present your analysis first, then ask ALL questions in one round, grouped:
 
 If the first round surfaces significant new info, do ONE follow-up. Never more than 2 rounds.
 
-### 4. Update Master Resume
+### 4. Update Base Resume
 
 - Add new bullets to the appropriate role section in `resume.md`
 - Add new skills to the Skills section

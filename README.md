@@ -152,6 +152,10 @@ The generated resumes are designed to pass Applicant Tracking Systems:
 - Keywords mirrored from the job description
 - Contact info in the document body (not headers/footers)
 
+## Automate Your Job Search with Cowork
+
+Want to have Claude search for matching jobs automatically every day? See **[COWORK.md](COWORK.md)** for setup instructions. The scheduled agent searches across job boards, filters results, and logs everything to a tracker — so you just review the list and build resumes for the roles you like.
+
 ## How the Base Resume Grows
 
 Each time you use the skill, Claude asks about experience not yet in `resume.md`. When you share new details, they're permanently added. Over time, your base resume becomes a comprehensive record of everything you've done — making future applications faster and more complete.

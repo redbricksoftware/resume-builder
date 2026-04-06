@@ -12,28 +12,25 @@ A Claude Code skill that tailors your resume for specific job postings and gener
 6. Generates a tailored, ATS-optimized 2-page Word document
 7. (Optional) Opens Chrome to help you apply directly
 
-## Setup
+## Install
+
+### As a Claude Code Plugin (recommended)
+
+```bash
+claude plugin add redbricksoftware/resume-builder
+```
+
+Then install the Python dependencies:
+
+```bash
+pip3 install python-docx pdfplumber playwright
+```
 
 ### Prerequisites
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) installed
 - Python 3.8+
 - Google Chrome (only needed for the optional apply step)
-
-### Install
-
-```bash
-# Clone the repo
-git clone <repo-url> resume-builder
-cd resume-builder
-
-# Install Python dependencies
-pip3 install python-docx playwright pdfplumber
-
-# Install the skill into Claude Code
-mkdir -p ~/.claude/skills/build-resume
-cp SKILL.md ~/.claude/skills/build-resume/SKILL.md
-```
 
 ### Create Your Resume
 
@@ -64,7 +61,7 @@ Edit `resume.md` with all of your experience, achievements, and skills.
 
 ## Usage
 
-Open Claude Code in the `resume-builder` directory and say:
+Open Claude Code in any directory and say:
 
 ```
 I want to apply for this job: https://example.com/job-posting
@@ -83,10 +80,6 @@ The `/build-resume` skill triggers automatically and walks you through:
 
 | File | Purpose |
 |------|---------|
-| `SKILL.md` | The Claude Code skill (copy to `~/.claude/skills/build-resume/`) |
-| `generate_resume.py` | ATS-optimized Word document generator |
-| `import_resume.py` | Extract text from .docx/.pdf/.txt for resume.md creation |
-| `apply_to_role.py` | Chrome automation for semi-automated applications |
 | `resume.md` | Your master resume (you create this, gitignored) |
 | `resume_example.md` | Template to get started |
 
